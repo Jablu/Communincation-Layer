@@ -1,0 +1,8 @@
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\bin\Debug\WCFHelloWorldConsoleHost.exe.config
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\bin\Debug\WCFHelloWorldConsoleHost.exe
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\bin\Debug\WCFHelloWorldConsoleHost.pdb
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\bin\Debug\WcfHello.dll
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\bin\Debug\WcfHello.pdb
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\obj\Debug\WCFHelloWorldConsoleHost.csprojResolveAssemblyReference.cache
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\obj\Debug\WCFHelloWorldConsoleHost.exe
+C:\Users\training\Desktop\28214_new\WcfHello\WCFHelloWorldConsoleHost\obj\Debug\WCFHelloWorldConsoleHost.pdb

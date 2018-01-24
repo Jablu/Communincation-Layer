@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="HRMSService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50872/HRMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50872/HRMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50872/HRMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntitiesLib" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IHRMSService_GetAllEmpForMe_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEmpForMe" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_GetAllEmpForMe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEmpForMeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_GetEmpById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpById" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_GetEmpById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmpByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_AddEmp_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddEmp" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_AddEmp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddEmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_DeleteEmployee_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployee" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_DeleteEmployee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_UpdateSalary_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSalary" />
+  </wsdl:message>
+  <wsdl:message name="IHRMSService_UpdateSalary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSalaryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IHRMSService">
+    <wsdl:operation name="GetAllEmpForMe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHRMSService/GetAllEmpForMe" message="tns:IHRMSService_GetAllEmpForMe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHRMSService/GetAllEmpForMeResponse" message="tns:IHRMSService_GetAllEmpForMe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHRMSService/GetEmpById" message="tns:IHRMSService_GetEmpById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHRMSService/GetEmpByIdResponse" message="tns:IHRMSService_GetEmpById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddEmp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHRMSService/AddEmp" message="tns:IHRMSService_AddEmp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHRMSService/AddEmpResponse" message="tns:IHRMSService_AddEmp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHRMSService/DeleteEmployee" message="tns:IHRMSService_DeleteEmployee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHRMSService/DeleteEmployeeResponse" message="tns:IHRMSService_DeleteEmployee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSalary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHRMSService/UpdateSalary" message="tns:IHRMSService_UpdateSalary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHRMSService/UpdateSalaryResponse" message="tns:IHRMSService_UpdateSalary_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IHRMSService" type="tns:IHRMSService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllEmpForMe">
+      <soap:operation soapAction="http://tempuri.org/IHRMSService/GetAllEmpForMe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmpById">
+      <soap:operation soapAction="http://tempuri.org/IHRMSService/GetEmpById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddEmp">
+      <soap:operation soapAction="http://tempuri.org/IHRMSService/AddEmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEmployee">
+      <soap:operation soapAction="http://tempuri.org/IHRMSService/DeleteEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSalary">
+      <soap:operation soapAction="http://tempuri.org/IHRMSService/UpdateSalary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HRMSService">
+    <wsdl:port name="BasicHttpBinding_IHRMSService" binding="tns:BasicHttpBinding_IHRMSService">
+      <soap:address location="http://localhost:50872/HRMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

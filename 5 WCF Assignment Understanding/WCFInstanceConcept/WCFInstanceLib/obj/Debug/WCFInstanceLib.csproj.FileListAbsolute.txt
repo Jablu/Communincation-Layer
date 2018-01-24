@@ -1,0 +1,7 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\bin\Debug\WCFInstanceLib.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\bin\Debug\WCFInstanceLib.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\obj\Debug\WCFInstanceLib.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\obj\Debug\WCFInstanceLib.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\obj\Debug\WCFInstanceLib.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\obj\Debug\WCFInstanceLib.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceLib\bin\Debug\WCFInstanceLib.dll.config

@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfAppIntro.ListView2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppIntro"
+        mc:Ignorable="d"
+        Title="ListView" Height="600" Width="1000" Loaded="Window_Loaded_1"
+        >
+
+    <Window.Resources>
+        <DataTemplate x:Key="employeeTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Employee Code:  "/>
+                <Label Content="     "/>
+                <Label Content="{Binding Path=Ecode}"/>
+                <Label Content="Employee Name:  "/>
+                <Label Content="     "/>
+                <Label Content="{Binding Path=Ename}"/>
+                <Label Content="Employee Salary:  "/>
+                <Label Content="     "/>
+                <Label Content="{Binding Path=Salary}"/>
+                <Label Content="Department ID:  "/>
+                <Label Content="     "/>
+                <Label Content="{Binding Path=Deptid}"/>
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    
+    <Grid>
+        
+        <ListView Name="myListView" ItemTemplate="{StaticResource employeeTemplate}"  />
+    
+    </Grid>
+</Window>

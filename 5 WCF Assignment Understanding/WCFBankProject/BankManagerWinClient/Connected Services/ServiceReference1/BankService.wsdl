@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BankService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IManager_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCFBankLib/Service1/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCFBankLib/Service1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICustomer_Deposite_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deposite" />
+  </wsdl:message>
+  <wsdl:message name="ICustomer_Deposite_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DepositeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomer_Withdraw_InputMessage">
+    <wsdl:part name="parameters" element="tns:Withdraw" />
+  </wsdl:message>
+  <wsdl:message name="ICustomer_Withdraw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WithdrawResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomer_CheckBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckBalance" />
+  </wsdl:message>
+  <wsdl:message name="ICustomer_CheckBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IManager_AddCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IManager_AddCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IManager_DeleteCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IManager_DeleteCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCustomerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICustomer">
+    <wsdl:operation name="Deposite">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomer/Deposite" message="tns:ICustomer_Deposite_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomer/DepositeResponse" message="tns:ICustomer_Deposite_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Withdraw">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomer/Withdraw" message="tns:ICustomer_Withdraw_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomer/WithdrawResponse" message="tns:ICustomer_Withdraw_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomer/CheckBalance" message="tns:ICustomer_CheckBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomer/CheckBalanceResponse" message="tns:ICustomer_CheckBalance_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IManager">
+    <wsdl:operation name="AddCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IManager/AddCustomer" message="tns:IManager_AddCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IManager/AddCustomerResponse" message="tns:IManager_AddCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IManager/DeleteCustomer" message="tns:IManager_DeleteCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IManager/DeleteCustomerResponse" message="tns:IManager_DeleteCustomer_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICustomer" type="tns:ICustomer">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Deposite">
+      <soap:operation soapAction="http://tempuri.org/ICustomer/Deposite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Withdraw">
+      <soap:operation soapAction="http://tempuri.org/ICustomer/Withdraw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBalance">
+      <soap:operation soapAction="http://tempuri.org/ICustomer/CheckBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IManager" type="tns:IManager">
+    <wsp:PolicyReference URI="#NetTcpBinding_IManager_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="AddCustomer">
+      <soap12:operation soapAction="http://tempuri.org/IManager/AddCustomer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCustomer">
+      <soap12:operation soapAction="http://tempuri.org/IManager/DeleteCustomer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BankService">
+    <wsdl:port name="BasicHttpBinding_ICustomer" binding="tns:BasicHttpBinding_ICustomer">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WCFBankLib/Service1/" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IManager" binding="tns:NetTcpBinding_IManager">
+      <soap12:address location="net.tcp://localhost:8001/Manager" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8001/Manager</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DHAN31\Training</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

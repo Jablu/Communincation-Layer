@@ -1,0 +1,10 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\bin\Debug\CodeBasedWCFConsoleHost.exe.config
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\bin\Debug\CodeBasedWCFConsoleHost.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\bin\Debug\CodeBasedWCFConsoleHost.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\bin\Debug\WCFBankLib.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\bin\Debug\WCFBankLib.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\bin\Debug\WCFBankLib.dll.config
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\obj\Debug\CodeBasedWCFConsoleHost.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\obj\Debug\CodeBasedWCFConsoleHost.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\obj\Debug\CodeBasedWCFConsoleHost.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\CodeBasedWCFConsoleHost\obj\Debug\CodeBasedWCFConsoleHost.pdb

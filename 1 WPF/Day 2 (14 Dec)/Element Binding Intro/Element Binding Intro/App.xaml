@@ -1,0 +1,21 @@
+﻿<Application x:Class="Element_Binding_Intro.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Element_Binding_Intro"
+             StartupUri="FirstPage.xaml">
+    <Application.Resources>
+
+
+        <Style x:Key="t1" TargetType="Button">
+            <Style.Triggers>
+                <Trigger Property="IsPressed" Value="True">
+
+                    <Setter TargetName="lbl1" Property="Background" Value="Red"/>
+                    <Setter Property="Foreground" Value="Yellow"/>
+
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+    </Application.Resources>
+</Application>

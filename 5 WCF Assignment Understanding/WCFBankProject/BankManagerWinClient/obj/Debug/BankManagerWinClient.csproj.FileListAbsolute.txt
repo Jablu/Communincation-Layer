@@ -1,0 +1,10 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\bin\Debug\BankManagerWinClient.exe.config
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\bin\Debug\BankManagerWinClient.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\bin\Debug\BankManagerWinClient.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.Form1.resources
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.Properties.Resources.resources
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.csproj.GenerateResource.Cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\BankManagerWinClient\obj\Debug\BankManagerWinClient.pdb

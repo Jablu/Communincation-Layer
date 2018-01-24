@@ -1,0 +1,5 @@
+C:\Users\training\Desktop\28214_new\WcfHello\WcfHello\bin\Debug\WcfHello.dll
+C:\Users\training\Desktop\28214_new\WcfHello\WcfHello\bin\Debug\WcfHello.pdb
+C:\Users\training\Desktop\28214_new\WcfHello\WcfHello\obj\Debug\WcfHello.csprojResolveAssemblyReference.cache
+C:\Users\training\Desktop\28214_new\WcfHello\WcfHello\obj\Debug\WcfHello.dll
+C:\Users\training\Desktop\28214_new\WcfHello\WcfHello\obj\Debug\WcfHello.pdb

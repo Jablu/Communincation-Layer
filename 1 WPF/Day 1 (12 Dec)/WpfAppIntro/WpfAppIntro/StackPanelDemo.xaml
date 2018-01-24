@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfAppIntro.StackPanelDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppIntro"
+        mc:Ignorable="d"
+        Title="StackPanelDemo" Height="600" Width="1000">
+    <StackPanel >
+        <Label x:Name="topLabel" Content="Stack Panel Layout" Height="77" Background="#FF3E2E74" Foreground="White" FontSize="48" FontFamily="Century Gothic" HorizontalAlignment="Center" Width="1000" Margin="-4,0" TextOptions.TextHintingMode="Animated"/>
+        <Button
+            Content="Button1"
+            Height="60"  Background="#FFB20635" FontFamily="Century Gothic" FontSize="16" Foreground="White" Width="250" Margin="108,0,634,0" Click="Button_Click"/>
+        <Button
+            Content="Button1"
+            Height="60"  Background="#FFB20635" FontFamily="Century Gothic" FontSize="16" Foreground="White" Width="250" Margin="371,0"/>
+        <Button
+            Content="Button1"
+            Height="60"  Background="#FFB20635" FontFamily="Century Gothic" FontSize="16" Foreground="White" Width="250" Margin="371,0"/>
+        <Button
+            Content="Button1"
+            Height="60"  Background="#FFB20635" FontFamily="Century Gothic" FontSize="16" Foreground="White" Width="250" Margin="371,0"/>
+    </StackPanel>
+</Window>

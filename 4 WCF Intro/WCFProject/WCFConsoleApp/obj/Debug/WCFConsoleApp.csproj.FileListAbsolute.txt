@@ -1,0 +1,9 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\bin\Debug\WCFConsoleApp.exe.config
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\bin\Debug\WCFConsoleApp.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\bin\Debug\WCFConsoleApp.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\bin\Debug\WcfServiceLibrary.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\bin\Debug\WcfServiceLibrary.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\obj\Debug\WCFConsoleApp.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\obj\Debug\WCFConsoleApp.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\obj\Debug\WCFConsoleApp.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WCFConsoleApp\obj\Debug\WCFConsoleApp.pdb

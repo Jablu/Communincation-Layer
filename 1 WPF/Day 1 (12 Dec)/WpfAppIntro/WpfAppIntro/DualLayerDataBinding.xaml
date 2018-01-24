@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfAppIntro.DualLayerDataBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppIntro"
+        mc:Ignorable="d"
+        Title="DualLayerDataBinding" Height="600" Width="1000" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen" 
+        
+        >
+
+    <Window.Resources>
+
+        <!--<local:Employee x:Key="employeeObject" Ecode="221" Ename="Shelock Holmes" Salary="1070" Deptid="7"/>-->
+
+    </Window.Resources>
+
+    <Grid Name="myGrid">
+        <!--DataContext="{StaticResource employeeObject}"--> 
+        
+
+        <Grid.RowDefinitions >
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Style="{StaticResource lstyle}" Content="Employee Code" HorizontalAlignment="Center"  VerticalAlignment="Center" Foreground="#FFB20637"/>
+
+        <Label Style="{StaticResource lstyle}" Content="Employee Name" HorizontalAlignment="Center"  VerticalAlignment="Center" Foreground="#FFB20637" Grid.Column="0" Grid.Row="1"/>
+        <Label Style="{StaticResource lstyle}" Content="Employee Salary" HorizontalAlignment="Center"  VerticalAlignment="Center" Foreground="#FFB20637" Grid.Column="0" Grid.Row="2"/>
+
+        <Label Style="{StaticResource lstyle}" Content="Employee Department Id" HorizontalAlignment="Center"  VerticalAlignment="Center" Foreground="#FFB20637" Grid.Column="0" Grid.Row="3"/>
+        <!--<TextBox Style="{StaticResource tstyle}" Text="{Binding Source={StaticResource employeeObject},Path=Ecode}"  HorizontalAlignment="Center"  VerticalAlignment="Center"  Grid.Column="1"/>
+
+        <TextBox Style="{StaticResource tstyle}"  Text="{Binding Source={StaticResource employeeObject},Path=Ename}" HorizontalAlignment="Center"  VerticalAlignment="Center"  Grid.Column="1" Grid.Row="1"/>
+        <TextBox Style="{StaticResource tstyle}" Text="{Binding Source={StaticResource employeeObject},Path=Salary}" HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Column="1" Grid.Row="2"/>
+
+        <TextBox Style="{StaticResource tstyle}"  Text="{Binding Source={StaticResource employeeObject},Path=Deptid}" HorizontalAlignment="Center"  VerticalAlignment="Center"  Grid.Column="1" Grid.Row="3"/>-->
+
+
+
+    </Grid>
+</Window>

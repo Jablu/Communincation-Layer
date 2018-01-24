@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a18a1130-aef7-4626-a241-8abc1a859672" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50872/HRMSService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HRMSService.disco" MetadataType="Disco" ID="6eb12985-c747-4394-b8a4-d71248bc7cab" SourceId="1" SourceUrl="http://localhost:50872/HRMSService.svc?disco" />
+    <MetadataFile FileName="HRMSService.xsd" MetadataType="Schema" ID="d76c322d-9cbd-487b-903b-e0bea4c46bed" SourceId="1" SourceUrl="http://localhost:50872/HRMSService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HRMSService1.xsd" MetadataType="Schema" ID="c1d052ee-a08f-4d5e-a950-49b6493b32df" SourceId="1" SourceUrl="http://localhost:50872/HRMSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HRMSService.wsdl" MetadataType="Wsdl" ID="f081bc4f-db36-497f-9395-20b26bb61013" SourceId="1" SourceUrl="http://localhost:50872/HRMSService.svc?wsdl" />
+    <MetadataFile FileName="HRMSService2.xsd" MetadataType="Schema" ID="87b36f7d-550f-4e70-925e-b89956c842cb" SourceId="1" SourceUrl="http://localhost:50872/HRMSService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

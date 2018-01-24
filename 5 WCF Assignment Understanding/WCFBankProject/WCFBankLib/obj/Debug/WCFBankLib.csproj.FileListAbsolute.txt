@@ -1,0 +1,7 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\bin\Debug\WCFBankLib.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\bin\Debug\WCFBankLib.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\obj\Debug\WCFBankLib.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\obj\Debug\WCFBankLib.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\obj\Debug\WCFBankLib.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\obj\Debug\WCFBankLib.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFBankProject\WCFBankLib\bin\Debug\WCFBankLib.dll.config

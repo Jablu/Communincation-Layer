@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserApplication", "BrowserApplication\BrowserApplication.csproj", "{26CF9EB4-B587-4595-B7EA-7DE72F1FFEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexBrowser", "IndexBrowser\IndexBrowser.csproj", "{F7CA3448-A372-455A-95B2-C0702B900279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26CF9EB4-B587-4595-B7EA-7DE72F1FFEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CF9EB4-B587-4595-B7EA-7DE72F1FFEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CF9EB4-B587-4595-B7EA-7DE72F1FFEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CF9EB4-B587-4595-B7EA-7DE72F1FFEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CA3448-A372-455A-95B2-C0702B900279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CA3448-A372-455A-95B2-C0702B900279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CA3448-A372-455A-95B2-C0702B900279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CA3448-A372-455A-95B2-C0702B900279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {233FF8AC-CAB7-4C9D-96D2-A261ED25CDF2}
+	EndGlobalSection
+EndGlobal

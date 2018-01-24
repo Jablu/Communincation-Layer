@@ -1,0 +1,103 @@
+﻿    body {
+        flex-align:center;
+        background-color:#f8f8f8;
+    }
+    .myHeader {
+        color:#fff;
+        background:#580fa9;
+        text-align:center;
+        margin-left:10px;   
+        margin-right:10px;
+        margin-bottom:10px;
+        border-bottom-right-radius:100px;
+        font-size:100px;
+        font-family:'JasmineUPC';
+    
+    }
+    .myForm {
+        color:#808080;
+        margin-top:10px;
+    
+
+    }
+    .myTable {
+        border-radius:12px;
+        background:#fff;
+        max-width:1200px;
+        min-width:100px;
+        text-align:center;
+        flex-align:stretch;
+        padding:15px;
+        min-height:500px;
+        margin:auto;
+    }
+    .myFormLabel {
+        font-family:'Cambria';
+        font-size:24px;
+        color:#000;
+        height:32px;
+        width:100%;
+        margin-top:20px;
+        margin-left:3px;
+        padding:10px;
+        text-align:match-parent;
+    }
+    .myFormInput {
+		font-family:'Cambria';
+        border:initial;  
+        min-width:400px;
+        border: none;
+        text-align:center;
+        border-bottom: 1px solid #580fa9;
+        font-size:20px;
+        color:#580fa9;
+        margin:5px;
+        margin-left:25px;
+        padding:10px;
+    }
+    .myFormList {
+   
+       min-width:400px; 
+       border-bottom: 1px solid #580fa9;
+       margin-top:10px;
+       margin-left:20px;
+       margin-bottom:10px;
+       width:initial;
+       height:32px;
+
+    }
+.myGoButton {
+    border-radius:6px;
+    min-width:250px;
+    font-family:Calibri;
+    color:#fff; 
+    margin-left:10px;
+    background-color:#580fa9;
+    margin-bottom: 16px;
+}
+.myResetButton {
+    border:none;
+    background-color:#fff;
+    
+    min-width:250px;
+    font-family:Calibri;
+    margin-left:10px;
+    color:#580fa9;
+    text-align:left;
+}
+
+.errorMessage {
+
+    
+        font-family:'Gadugi';
+        font-size:18px;
+        color:#ff0000;
+        height:32px;
+        width:100%;
+        margin-top:3px;
+        margin-left:3px;
+        padding:10px;
+        text-align:match-parent;
+
+
+}

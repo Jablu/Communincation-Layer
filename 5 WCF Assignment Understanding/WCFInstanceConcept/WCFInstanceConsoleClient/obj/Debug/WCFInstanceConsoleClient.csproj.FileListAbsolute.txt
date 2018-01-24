@@ -1,0 +1,6 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceConsoleClient\bin\Debug\WCFInstanceConsoleClient.exe.config
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceConsoleClient\bin\Debug\WCFInstanceConsoleClient.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceConsoleClient\bin\Debug\WCFInstanceConsoleClient.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceConsoleClient\obj\Debug\WCFInstanceConsoleClient.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceConsoleClient\obj\Debug\WCFInstanceConsoleClient.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFInstanceConsoleClient\obj\Debug\WCFInstanceConsoleClient.pdb

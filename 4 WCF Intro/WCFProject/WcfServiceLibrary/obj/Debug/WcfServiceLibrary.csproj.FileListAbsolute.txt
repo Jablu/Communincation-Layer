@@ -1,0 +1,6 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\4 WCF Intro\WCFProject\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.pdb

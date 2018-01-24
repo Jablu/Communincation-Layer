@@ -1,0 +1,10 @@
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\bin\Debug\WCFConsoleHost.exe.config
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\bin\Debug\WCFConsoleHost.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\bin\Debug\WCFConsoleHost.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\bin\Debug\WCFInstanceLib.dll
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\bin\Debug\WCFInstanceLib.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\obj\Debug\WCFConsoleHost.csprojResolveAssemblyReference.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\obj\Debug\WCFConsoleHost.csproj.CoreCompileInputs.cache
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\obj\Debug\WCFConsoleHost.exe
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\obj\Debug\WCFConsoleHost.pdb
+D:\Abinash Mishra\Part II  (Till Project 2)\5 WCF Assignment Understanding\WCFInstanceConcept\WCFConsoleHost\bin\Debug\WCFInstanceLib.dll.config
